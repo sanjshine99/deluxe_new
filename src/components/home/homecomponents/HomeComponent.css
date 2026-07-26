@@ -714,14 +714,8 @@
 /*partner slide*/
 
 @keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(
-      calc(-250px * 3)
-    ); /* Adjust the multiplier to suit your number of slides */
-  }
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 .slider {
@@ -763,16 +757,16 @@
 }
 
 .slide-track {
-  animation: scroll 25s linear infinite;
   display: flex;
-  width: calc(250px * 7);
-  transition: transform 1s linear;
+  width: max-content;
   align-items: center;
+  animation: scroll 60s linear infinite;
 }
 
 .slide {
   height: auto;
-  width: 35vw;
+  width: 250px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
