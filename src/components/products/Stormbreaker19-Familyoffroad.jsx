@@ -4,6 +4,7 @@ import "../home/Home.css";
 import "../home/homecomponents/HomeComponent.css";
 import EnhancedGallery from "../products/SlideShows/EnhancedGallery";
 import GoToTop from "../functions/GoToTop";
+import HandoverSection from "./HandoverSection";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -190,7 +191,8 @@ const Stormbreaker19FamilyOffRoad = () => {
         <h1>Features & Specifications</h1>
         <Storm19specs />
       </div>
-      
+      <HandoverSection />
+
       <GoToTop />
     </div>
   );

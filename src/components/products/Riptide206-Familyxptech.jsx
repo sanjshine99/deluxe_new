@@ -4,6 +4,7 @@ import "../home/Home.css";
 import "../home/homecomponents/HomeComponent.css";
 import EnhancedGallery from "../products/SlideShows/EnhancedGallery";
 import GoToTop from "../functions/GoToTop";
+import HandoverSection from "./HandoverSection";
 
 import SpecsRiptide206xptech from "./Specsmenu/SpecsRiptide206xptech";
 import TechspecRiptide206xptech from "./techspecs/TechspecRiptide206xptech";
@@ -180,7 +181,8 @@ const Riptide206FamilyXPTech = () => {
       <div>
         <ResponsiveTable />
       </div>
-      
+      <HandoverSection />
+
       <GoToTop />
     </div>
   );
