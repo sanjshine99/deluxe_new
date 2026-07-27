@@ -7,6 +7,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link } from "react-router-dom";
 import GoToTop from "../functions/GoToTop";
+import HandoverSection from "./HandoverSection";
 
 import SpecsEclipse18 from "./Specsmenu/SpecsEclipse18xptech";
 import TechspecEclipse18 from "./techspecs/TechspecEclipse18xptech";
@@ -192,7 +193,8 @@ const Eclipse18CouplesXPTech = () => {
       <div>
               <ResponsiveTable />
             </div>
-      
+      <HandoverSection />
+
       <GoToTop />
     </div>
   );
