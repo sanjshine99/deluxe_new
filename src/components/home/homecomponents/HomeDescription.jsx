@@ -22,7 +22,7 @@ const HomeDescription = () => {
     >
       <div className="desccomponent">
       <h1 style={{ opacity: 1, transform: "translateY(0)" }}>
-        CROSS COUNTRY? WE HEAR YOU!
+        YOUR DREAM CARAVAN. BUILT YOUR WAY.
       </h1>
         <p
           style={{
@@ -31,9 +31,11 @@ const HomeDescription = () => {
             transitionDelay: stagger * 1 + "s",
           }}
         >
-          Hitting the road for a cross-country adventure or a quick escape from
-          suburbia should be an experience you enjoy.
-        </p>
+          At Deluxe Caravans, we build Australian made caravans that combine luxury, durability, and
+practicality. Our range of off road caravans Australia is designed to inspire, with every caravan
+custom built to your order and to suit your lifestyle. Start with one of our proven layouts, then
+personalize the floorplan, finishes, features, and off-grid capability to create the luxury caravan
+you&#39;ve always dreamed of.</p>
         <p
           style={{
             opacity: 1,
@@ -41,10 +43,9 @@ const HomeDescription = () => {
             transitionDelay: stagger * 2 + "s",
           }}
         >
-          What you're looking for is a getaway with modern comforts and
-          amenities with your loved ones; a place that feels like home—even if
-          it's on wheels.
-        </p>
+          From premium couples&#39; caravans to spacious family caravans Australia can rely on, every
+Deluxe Caravan is handcrafted to your exact requirements—because no two travellers are the
+same.</p>
         <p
           style={{
             opacity: 1,
@@ -52,11 +53,18 @@ const HomeDescription = () => {
             transitionDelay: stagger * 3 + "s",
           }}
         >
-          At Deluxe Caravans, we help you fall in love with life on the road.
-          With our range of luxury caravans for families, couples, and
-          free-spirited nomads, take on the great outdoors with all the comfort
-          and safety you deserve.
-        </p>
+        You’ll also have the opportunity to follow your caravan as it&#39;s being built through our Build
+Journey, giving you complete transparency and confidence from the day construction begins
+through to handover.</p>
+<p
+          style={{
+            opacity: 1,
+            transform: "translateY(0)",
+            transitionDelay: stagger * 3 + "s",
+          }}
+        >
+        Experience the difference of truly custom-built deluxe caravans, designed around your
+adventures and built to last.</p>
       </div>
     </div>
   );

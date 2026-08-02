@@ -166,7 +166,7 @@ const Contact = () => {
             />
           </div>
           <button type="submit" className="send">
-            Send
+            Send Enquiry Form
           </button>
           <Link to="/appointment" className="book">
             BOOK A TOUR!

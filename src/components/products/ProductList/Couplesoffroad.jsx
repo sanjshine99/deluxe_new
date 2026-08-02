@@ -33,12 +33,15 @@ const Couplesoffroad = React.memo(() => {
   return (
     <div className="productgrid-container">
       <Helmet>
-        <title>Couples Expedition Caravans | Eclipse Range | Deluxe Caravans</title>
-        <meta name="description" content="Luxury off road caravans for couples — Eclipse range. Australian-made, composite frame, queen island bed, airbag suspension. 17 years family owned. Get a quote today." />
+        <title>Off Road Caravans for Couples, Deluxe Caravans Australia</title>
+        <meta name="description" content="Compact, off road ready caravans built for couples who want to get further off the beaten track. Composite frame, airbag suspension, Australian made." />
         <link rel="canonical" href="https://deluxecaravans.com.au/couplesoffroad" />
       </Helmet>
       <div className="productgrid-component">
         <h1 className="product-grid-heading">COUPLES EXPEDITION</h1>
+        <p className="intro-text">Explore our range of off road caravans for couples, featuring custom layouts and
+premium couples caravan Australia designs, including the perfect off road caravan for
+two.</p>
         <h2 className="product-grid-subheading">Eclipse</h2>
         <div className="product-grid">
           {products.map((product) => (

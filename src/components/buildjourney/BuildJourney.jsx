@@ -132,7 +132,7 @@ const steps = [
 ];
 
 const faqs = [
-  { q: "Can I really buy a $90K caravan without seeing it in person?", a: "Yes — and many of our customers do exactly this. The combination of detailed spec sheets, weekly build photos, video walkthroughs, and live FaceTime access means you have more visibility into your Deluxe build than you'd typically get visiting a showroom once. Our 5.0 Google rating reflects how comfortable customers feel with this process." },
+  { q: "Can I really buy a $90K caravan without seeing it in person?", a: "Yes — and many of our customers do exactly this. The combination of detailed spec sheets, weekly build photos, video walkthroughs, and live FaceTime access means you have more visibility into your Deluxe build than you'd typically get visiting a showroom once. Our 5.0 Google rating reflects how comfortable customers feel with this process. Whether you're visiting us in person or looking to buy a caravan online Australia-wide, our Build Journey gives you complete confidence throughout the build." },
   { q: "How long does a build take?", a: "Build times vary by model and current slot availability. Typically 8–14 weeks from deposit to handover. We'll give you a realistic build window in writing before you place a deposit — no vague promises." },
   { q: "Can I change my mind after I've placed a deposit?", a: "Yes — specification changes are accepted through to the framing stage and sometimes beyond. We've accommodated significant changes mid-build. Changes may affect pricing if they involve upgrades, which we'll communicate clearly before proceeding." },
   { q: "Do you deliver interstate?", a: "Yes. We can arrange delivery of your completed van to anywhere in Australia. Interstate buyers also receive a full video handover package so you understand every system before you hit the road. Many customers also fly to Melbourne for factory collection — we're happy to recommend where to stay." },
@@ -250,8 +250,8 @@ function BuildJourney() {
   return (
     <div className="build-journey-page">
       <Helmet>
-        <title>Build Journey | How We Build Our Caravans | Deluxe Caravans</title>
-        <meta name="description" content="See how every Deluxe Caravan is built from the chassis up. Australian-made in Campbellfield, composite frame, quality checked before handover. Learn more." />
+        <title>The Build Journey, Weekly Updates From Our Campbellfield Factory, Deluxe Caravans</title>
+        <meta name="description" content="Weekly photos, milestone videos, and live FaceTime updates throughout your build. See exactly how the process works, even if you're ordering from interstate." />
         <link rel="canonical" href="https://deluxecaravans.com.au/buildjourney" />
       </Helmet>
 
@@ -267,6 +267,7 @@ function BuildJourney() {
             <p className="bj-hero-sub">
               Buying a $90K caravan online takes <strong>an extraordinary amount of trust</strong>. We've earned it — by letting you see inside our factory, meet your builder, and reshape your van right up until the frame goes up.
             </p>
+            <p className="bj-hero-sub">Our Build Journey gives customers complete visibility throughout the custom caravan build process. Whether you're local or an interstate caravan buyer, you'll receive regular caravan build updates as your custom-built caravan comes to life at our Campbellfield factory.</p>
             <div className="bj-hero-actions">
               <a href="#bj-enquiry" className="bj-btn-primary">Start your build enquiry</a>
               <a href="#bj-journey" className="bj-btn-secondary">See how it works &#x2193;</a>
