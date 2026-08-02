@@ -53,15 +53,16 @@ const WarrantyPolicy = () => {
   return (
     <div style={{ backgroundColor: "var(--color-bg)", color: "var(--color-text)" }}>
       <Helmet>
-        <title>Warranty Policy | Deluxe Caravans</title>
-        <meta name="description" content="Deluxe Caravans structural warranty explained. Nationwide repairers, clear claims process, and cover that travels with you anywhere in Australia. Learn more." />
+        <title>Caravan Warranty Explained, Structural and Chassis Cover, Deluxe Caravans</title>
+        <meta name="description" content="What is actually covered under a Deluxe caravan warranty, structural, chassis, and manufacturer cover, backed by a nationwide repairer network." />
         <link rel="canonical" href="https://deluxecaravans.com.au/warranty" />
         <script type="application/ld+json">{JSON.stringify(warrantyFaqSchema)}</script>
       </Helmet>
       <div className="maintenance-container">
         <div className="maintenance-content">
           <h1>Warranty Terms & Conditions</h1>
-
+<p className="intro-text">Learn everything you need to know about your caravan warranty Australia coverage, including your structural warranty caravan protection and what your caravan warranty cover explained means for your ownership.</p>
+              
           <div className="maintenance-section">
             <div className="service-type">
               <h2>Manufacturer Warranty</h2>

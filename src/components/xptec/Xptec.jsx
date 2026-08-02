@@ -11,8 +11,8 @@ const WarrantyPolicy = React.memo(() => {
       style={{ backgroundColor: "var(--color-bg)", color: "var(--color-text)" }}
     >
       <Helmet>
-        <title>XP-TECH Caravans | Off-Grid Power System | Deluxe Caravans</title>
-        <meta name="description" content="XP-TECH by Deluxe Caravans — 400Ah lithium, 6 solar panels, 3000W inverter, Dometic fridge &amp; IBIS 4 aircon. Australia's premium off-grid caravan power system." />
+        <title>XP-TECH Caravans, Australian Made Composite Construction, Deluxe Caravans</title>
+        <meta name="description" content="Real off grid power as standard. Composite frame, lithium batteries, solar, and airbag suspension. Built and warrantied in Campbellfield. Book a factory visit." />
         <link rel="canonical" href="https://deluxecaravans.com.au/xptech" />
       </Helmet>
       <div className="xptech-hero">
@@ -36,7 +36,7 @@ const WarrantyPolicy = React.memo(() => {
 
           <div className="intro-content">
             <p className="intro-text">
-              Our full composite, XP-TECH is the solution you have been looking
+              Our full composite XP-TECH caravans are the solution you have been looking
               for to create a lifetime of memories. Built to withstand the
               toughest of terrain across Australia with its unique features and
               upgrades.
@@ -46,6 +46,9 @@ const WarrantyPolicy = React.memo(() => {
               Our XP-TECH offers a range of solutions that your average caravan
               meranti and aluminium frame constructions cannot offer.
             </p>
+
+             <p className="intro-text">
+              XP-TECH is the technology behind our premium off grid caravans range in Australia, setting a new standard for composite caravan construction in Australia.</p>
 
             <p className="tech-intro">
               Let's explore the technical specifications behind this
