@@ -62,12 +62,15 @@ const Familyoffroad = React.memo(() => {
   return (
     <div className="productgrid-container">
       <Helmet>
-        <title>Family Expedition Caravans | Stormbreaker &amp; Riptide | Deluxe Caravans</title>
-        <meta name="description" content="Australian-made family off road caravans — Stormbreaker &amp; Riptide range. Composite frame, triple bunks, airbag suspension. Built in Campbellfield. Get a quote." />
+        <title>Family Off Road Caravans Australia, Triple Bunk Models, Deluxe Caravans</title>
+        <meta name="description" content="Off road caravans built for family travel. Triple bunk layouts, composite frame, airbag suspension, and nationwide warranty. See the Stormbreaker range." />
         <link rel="canonical" href="https://deluxecaravans.com.au/familyoffroad" />
       </Helmet>
       <div className="productgrid-component">
         <h1 className="product-grid-heading">FAMILY EXPEDITION</h1>
+         <p className="intro-text">
+            Explore our range of off road family caravans, including custom layouts and triple bunk
+off road caravan options.</p>
         <h2 className="product-grid-subheading">STORMBREAKER</h2>
         <div className="product-grid">
           {productstormbreaker.map((productstormbreaker) => (

@@ -64,12 +64,15 @@ const Familyxptech = React.memo(() => {
   return (
     <div className="productgrid-container">
       <Helmet>
-        <title>Family XP-Tech Caravans | Stormbreaker &amp; Riptide | Deluxe Caravans</title>
-        <meta name="description" content="Family caravans built for off-grid Australia. XP-TECH includes 400Ah lithium, 6 solar panels &amp; 3000W inverter. Triple bunks, composite frame. Book a factory visit." />
+        <title>Family Caravans With Off Grid Power, XP-TECH Range, Deluxe Caravans</title>
+        <meta name="description" content="Family caravans built for longer stays off the grid. Lithium power, solar, and space for the whole family. Australian made in Campbellfield." />
         <link rel="canonical" href="https://deluxecaravans.com.au/familyxptech" />
       </Helmet>
       <div className="productgrid-component">
         <h1 className="product-grid-heading">FAMILY XP-TECH</h1>
+       <p className="intro-text">Explore our range of family off grid caravans, featuring XP-TECH family caravan
+designs and custom layouts built for families seeking the ultimate off grid family caravan
+Australia adventure.</p>
         <h2 className="product-grid-subheading">STORMBREAKER</h2>
         <div className="product-grid">
           {productstormbreaker.map((productstormbreaker) => (

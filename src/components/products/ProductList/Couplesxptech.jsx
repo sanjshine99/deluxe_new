@@ -33,12 +33,13 @@ const Couplesxptech = React.memo(() => {
   return (
     <div className="productgrid-container">
       <Helmet>
-        <title>Couples XP-Tech Caravans | Eclipse Range | Deluxe Caravans</title>
-        <meta name="description" content="Off grid doesn't mean roughing it. Eclipse XP-TECH — 400Ah lithium, 6 solar panels, Dometic fridge &amp; IBIS 4 aircon. Luxury couples caravans, built in Australia." />
+        <title>Luxury Off Grid Caravans for Couples, XP Tech Range, Deluxe Caravans</title>
+        <meta name="description" content="Off grid power, real comfort, and a layout built for two. See why couples across Australia are choosing the XP-TECH range for the Big Lap." />
         <link rel="canonical" href="https://deluxecaravans.com.au/couplesxptech" />
       </Helmet>
       <div className="productgrid-component">
         <h1 className="product-grid-heading">Couples XP-TECH</h1>
+        <p className="intro-text">Explore our range of luxury caravans for couples, featuring XP-TECH construction and premium off grid caravan for couples designs, built to redefine the couples caravanning Australia experience.</p>
         <h2 className="product-grid-subheading">Eclipse</h2>
         <div className="product-grid">
           {products.map((product) => (
