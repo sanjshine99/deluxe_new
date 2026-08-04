@@ -86,7 +86,7 @@
   grid-column: 1 / span 2; /* Make the message field span two columns */
 }
 
-button {
+.contact__form button {
   padding: 10px 20px;
   background-color: var(--color-panel);
   color: var(--color-white);
@@ -94,7 +94,7 @@ button {
   border-radius: 5px;
   font-size: 16px;
   transition: background-color 0.3s ease;
-  grid-column: 1 / span 2; /* Make the button span two columns */
+  grid-column: 1 / span 2;
 }
 
 .book {
@@ -110,12 +110,11 @@ button {
 
 .book:hover {
   background-color: var(--color-link-hover);
-  color: var(--color-white);
   color: var(--color-danger);
   cursor: pointer;
 }
 
-button:hover {
+.contact__form button:hover {
   background-color: var(--color-link-hover);
   color: var(--color-panel);
   cursor: pointer;

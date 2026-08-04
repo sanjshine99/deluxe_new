@@ -47,7 +47,7 @@
   text-decoration: none;
 }
 
-.icon {
+.icon-social {
   height: 27px;
   margin-right: 4vw;
 }
@@ -71,7 +71,6 @@
   justify-content: left;
   align-items: flex-start;
   text-align: left !important;
-  gap: 20px;
   gap: 5vw;
 }
 
@@ -119,7 +118,7 @@
   max-width: 100%; /* Set maximum width to 100% of the parent container */
 }
 
-.icon {
+.icon-compact {
   width: 18px;
   height: 18px;
 }
@@ -172,10 +171,10 @@
     margin-top: 10px; /* Add margin between social icons and copyright text on smaller screens */
   }
 
-  .icon {
-    width: 24px; /* Increase icon size for smaller screens */
+  .icon-social {
+    width: 24px;
     height: 24px;
-    margin-right: 0; /* Remove margin between icons for smaller screens */
+    margin-right: 0;
   }
 
   .copyright {

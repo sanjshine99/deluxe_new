@@ -47,7 +47,7 @@
 }
 
 .header h3,
-h5 {
+.header h5 {
   text-align: left;
 }
 
@@ -202,7 +202,7 @@ h5 {
 .menu-item.active .nested-submenu-item {
   opacity: 1;
   transform: translateY(0);
-  transition-delay: 0.1s ease;
+  transition-delay: 0.1s;
 }
 
 /* Specific styles for nested-submenu (applied to deep-nested-submenu as well) */

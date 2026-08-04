@@ -106,7 +106,7 @@ const Footer = React.memo(() => {
               <img
                 src="https://deluxcaravan.b-cdn.net/assets/icons/instagram.webp"
                 alt="Instagram"
-                className="icon"
+                className="icon-social"
               />
             </a>
             <a
@@ -117,7 +117,7 @@ const Footer = React.memo(() => {
               <img
                 src="https://deluxcaravan.b-cdn.net/assets/icons/facebook.webp"
                 alt="Facebook"
-                className="icon"
+                className="icon-social"
               />
             </a>
             <a
@@ -128,7 +128,7 @@ const Footer = React.memo(() => {
               <img
                 src="https://deluxcaravan.b-cdn.net/assets/icons/twitter.webp"
                 alt="Twitter"
-                className="icon"
+                className="icon-social"
               />
             </a>
             <a
@@ -139,7 +139,7 @@ const Footer = React.memo(() => {
               <img
                 src="https://deluxcaravan.b-cdn.net/assets/icons/tik-tok.webp"
                 alt="TikTok"
-                className="icon"
+                className="icon-social"
               />
             </a>
             <a
@@ -150,7 +150,7 @@ const Footer = React.memo(() => {
               <img
                 src="https://deluxcaravan.b-cdn.net/assets/icons/youtube.webp"
                 alt="YouTube"
-                className="icon"
+                className="icon-social"
               />
             </a>
           </div>

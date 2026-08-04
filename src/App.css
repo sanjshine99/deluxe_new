@@ -31,7 +31,7 @@
 }
 
 @font-face {
-  font-family: 'ITC Avant Gaarde Gothic Pro';
+  font-family: 'ITC Avant Garde Gothic Pro';
   src: url('./assets/font/ITC\ Avant\ Garde\ Gothic\ Pro-XLt.otf') format('opentype');
   font-weight: 100; /* XLt font-weight */
   font-style: normal;
@@ -73,18 +73,9 @@ html, body {
   color: var(--color-text) !important;
 }
 
-/* Reset any white backgrounds that might persist */
-* {
-  background-color: inherit;
-}
 
-/* Specific resets for common elements that might retain white backgrounds */
-div, section, article, main, aside, nav, header, footer {
-  background-color: transparent;
-}
-
-h1,h2,a{
-  text-transform: uppercase !important;
+h1, h2 {
+  text-transform: uppercase;
 }
 
 ::-webkit-scrollbar{
@@ -105,7 +96,6 @@ h1,h2,a{
 }
 
 html{
-  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
 
@@ -187,7 +177,7 @@ a:hover {
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
- p {
-   font-size: 16; 
+  p {
+    font-size: 16px;
   }
 }
