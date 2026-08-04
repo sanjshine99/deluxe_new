@@ -2,8 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import "../home/Home.css";
-import "../home/homecomponents/HomeComponent.css";
 import "./About.css";
 import GoToTop from "../functions/GoToTop";
 

@@ -7,6 +7,11 @@
   overflow: hidden;
 }
 
+.component.component-fit {
+  min-height: auto;
+  padding: 0;
+}
+
 .component2 {
   margin-top: 30vh;
   min-height: 100vh;
@@ -311,9 +316,9 @@
     height: 100vh;
     margin-bottom: 20vh;
   }
-  .wcontainer {
+  /* .wcontainer {
     margin-bottom: 20vh;
-  }
+  } */
 
   .doswOh {
     font-size: 20px !important;
@@ -356,7 +361,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: auto;
+  max-width: none;
   min-height: 100vh; /* Adjust the maximum width as needed */
   overflow: hidden;
 }
@@ -389,7 +394,7 @@
 /* Testimonials */
 .testimonials-container {
   display: grid;
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
   margin-top: 1vh;
   border-radius: 40px;
@@ -628,18 +633,7 @@
 }
 
 /* Button Code */
-:active,
-:hover,
-:focus {
-  outline: 0 !important;
-  outline-offset: 0;
-}
 
-::before,
-::after {
-  position: absolute;
-  content: "";
-}
 
 .btn-holder {
   display: flex;
@@ -789,7 +783,7 @@
 @media (max-width: 768px) {
   .slide {
     margin-right: 5vw;
-    width: 200vw;
+    width: 200px;
   }
 
   .carousel-button {

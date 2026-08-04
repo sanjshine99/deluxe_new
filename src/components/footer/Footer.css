@@ -47,7 +47,7 @@
   text-decoration: none;
 }
 
-.icon {
+.icon-social {
   height: 27px;
   margin-right: 4vw;
 }
@@ -71,7 +71,6 @@
   justify-content: left;
   align-items: flex-start;
   text-align: left !important;
-  gap: 20px;
   gap: 5vw;
 }
 
@@ -119,7 +118,7 @@
   max-width: 100%; /* Set maximum width to 100% of the parent container */
 }
 
-.icon {
+.icon-compact {
   width: 18px;
   height: 18px;
 }
