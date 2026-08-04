@@ -18,11 +18,11 @@
   padding-top: 120px;
 }
 
-.context {
+.aboutcontainer .context {
   text-align: center;
 }
 
-.context h1 {
+.aboutcontainer .context h1 {
   font-size: 4rem;
   font-weight: 700;
   margin-bottom: 20px;
@@ -34,7 +34,7 @@
   background-clip: text;
 }
 
-.context h2 {
+.aboutcontainer .context h2 {
   font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 30px;
@@ -42,7 +42,7 @@
   position: relative;
 }
 
-.context h2::after {
+.aboutcontainer .context h2::after {
   content: '';
   position: absolute;
   bottom: -15px;
@@ -54,7 +54,7 @@
   border-radius: 2px;
 }
 
-.subheader {
+.aboutcontainer .subheader {
   font-size: 1.3rem;
   font-weight: 300;
   margin-bottom: 40px;
@@ -62,7 +62,7 @@
   font-style: italic;
 }
 
-.context p {
+.aboutcontainer .context p {
   font-size: 1.1rem;
   line-height: 1.8;
   margin: 25px 0;
@@ -72,7 +72,7 @@
   margin-right: auto;
 }
 
-.context ul {
+.aboutcontainer .context ul {
   text-align: left;
   max-width: 600px;
   margin: 30px auto;
@@ -82,7 +82,7 @@
   border: 1px solid var(--color-border);
 }
 
-.context ul li {
+.aboutcontainer .context ul li {
   margin: 12px 0;
   font-size: 1rem;
   color: var(--color-text);
@@ -90,7 +90,7 @@
   padding-left: 25px;
 }
 
-.context ul li::before {
+.aboutcontainer .context ul li::before {
   content: '✓';
   position: absolute;
   left: 0;
@@ -158,11 +158,11 @@
     padding: 60px 30px;
   }
 
-  .context h1 {
+  .aboutcontainer .context h1 {
     font-size: 3rem;
   }
 
-  .context h2 {
+  .aboutcontainer .context h2 {
     font-size: 2rem;
   }
 
@@ -181,21 +181,21 @@
     padding-top: 100px;
   }
 
-  .context h1 {
+  .aboutcontainer .context h1 {
     font-size: 2.5rem;
     margin-top: 0;
   }
 
-  .context h2 {
+  .aboutcontainer .context h2 {
     font-size: 1.8rem;
   }
 
-  .context p {
+  .aboutcontainer .context p {
     font-size: 1rem;
     margin: 20px 0;
   }
 
-  .subheader {
+  .aboutcontainer .subheader {
     font-size: 1.1rem;
   }
 
@@ -219,15 +219,15 @@
 }
 
 @media (max-width: 480px) {
-  .context h1 {
+  .aboutcontainer .context h1 {
     font-size: 2rem;
   }
 
-  .context h2 {
+  .aboutcontainer .context h2 {
     font-size: 1.5rem;
   }
 
-  .context ul {
+  .aboutcontainer .context ul {
     padding: 20px;
   }
 

@@ -171,10 +171,10 @@
     margin-top: 10px; /* Add margin between social icons and copyright text on smaller screens */
   }
 
-  .icon {
-    width: 24px; /* Increase icon size for smaller screens */
+  .icon-social {
+    width: 24px;
     height: 24px;
-    margin-right: 0; /* Remove margin between icons for smaller screens */
+    margin-right: 0;
   }
 
   .copyright {
