@@ -8,7 +8,7 @@ const Gallery_landing = () => {
 
   return (
     <div className="wcontainer">
-      <h1>Why Choose Us</h1>
+      <h2 className="homepage-section-h">Why Choose Us</h2>
       <div className="image-container_landing">
         <div className="image-item" onClick={() => handleImageClick("Bespoke Models")}>
           <img

@@ -22,12 +22,12 @@ const HomeDescription = () => {
       ref={ref}
     >
       <div className="desccomponent">
-        <h1 style={{ opacity: 1, transform: "translateY(0)" }}>
+        <h2 className="homepage-section-h" style={{ opacity: 1, transform: "translateY(0)" }}>
           YOUR DREAM CARAVAN. BUILT YOUR WAY.
-        </h1>
-        <h2 style={{ opacity: 1, transform: "translateY(0)" }}>
-          Australian-Made Luxury Caravans, Built Around You
         </h2>
+        <h3 className="homepage-subh" style={{ opacity: 1, transform: "translateY(0)" }}>
+          Australian-Made Luxury Caravans, Built Around You
+        </h3>
         <p
           style={{
             opacity: 1,

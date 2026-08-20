@@ -15,7 +15,7 @@ const logos = [
 const Partners = () => {
   return (
     <>
-      <h1 className="partners-heading">Our Premium Partners</h1>
+      <h2 className="partners-heading">Our Premium Partners</h2>
       <div className="slider">
         <div className="slide-track">
           {[...logos, ...logos].map((logo, i) => (
