@@ -28,7 +28,7 @@ const organizationSchema = {
     'https://www.facebook.com/deluxecaravansaustralia',
     'https://twitter.com/CaravansDeluxe',
     'https://www.tiktok.com/@deluxecaravansaustralia',
-    'https://www.youtube.com/watch?v=a_KE1CVPT48',
+    'https://www.youtube.com/@deluxecaravans8373',
   ],
 };
 
