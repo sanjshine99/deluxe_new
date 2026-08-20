@@ -38,7 +38,7 @@ const Gallery_landing = () => {
               height="100px"
               width="100px"
             />
-            <p>15+ Years of Manufacturing Experience</p>
+            <p>17+ Years of Manufacturing Experience</p>
           </div>
           <div className="image-item">
             <img
