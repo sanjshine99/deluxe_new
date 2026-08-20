@@ -74,6 +74,8 @@ const Familyxptech = React.memo(() => {
 designs and custom layouts built for families seeking the ultimate off grid family caravan
 Australia adventure.</p>
         <h2 className="product-grid-subheading">STORMBREAKER</h2>
+        <p className="price-label">Starting Prices</p>
+        <p className="price-disclaimer">All prices shown are starting prices. Final price depends on your selected customisations and optional upgrades.</p>
         <div className="product-grid">
           {productstormbreaker.map((productstormbreaker) => (
             <Link to={productstormbreaker.link} key={productstormbreaker.id}>
@@ -92,6 +94,8 @@ Australia adventure.</p>
       </div>
       <div className="productgrid-component">
         <h2 className="product-grid-subheading">RIPTIDE</h2>
+        <p className="price-label">Starting Prices</p>
+        <p className="price-disclaimer">All prices shown are starting prices. Final price depends on your selected customisations and optional upgrades.</p>
         <div className="product-grid">
           {productriptide.map((productriptide) => (
             <Link to={productriptide.link} key={productriptide.id}>

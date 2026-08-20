@@ -72,6 +72,8 @@ const Familyoffroad = React.memo(() => {
             Explore our range of off road family caravans, including custom layouts and triple bunk
 off road caravan options.</p>
         <h2 className="product-grid-subheading">STORMBREAKER</h2>
+        <p className="price-label">Starting Prices</p>
+        <p className="price-disclaimer">All prices shown are starting prices. Final price depends on your selected customisations and optional upgrades.</p>
         <div className="product-grid">
           {productstormbreaker.map((productstormbreaker) => (
             <Link to={productstormbreaker.link} key={productstormbreaker.id}>
@@ -90,6 +92,8 @@ off road caravan options.</p>
       </div>
       <div className="productgrid-component">
         <h2 className="product-grid-subheading">RIPTIDE</h2>
+        <p className="price-label">Starting Prices</p>
+        <p className="price-disclaimer">All prices shown are starting prices. Final price depends on your selected customisations and optional upgrades.</p>
         <div className="product-grid">
           {productriptide.map((productriptide) => (
             <Link to={productriptide.link} key={productriptide.id}>

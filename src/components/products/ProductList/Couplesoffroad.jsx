@@ -43,6 +43,8 @@ const Couplesoffroad = React.memo(() => {
 premium couples caravan Australia designs, including the perfect off road caravan for
 two.</p>
         <h2 className="product-grid-subheading">Eclipse</h2>
+        <p className="price-label">Starting Prices</p>
+        <p className="price-disclaimer">All prices shown are starting prices. Final price depends on your selected customisations and optional upgrades.</p>
         <div className="product-grid">
           {products.map((product) => (
             <Link to={product.link} key={product.id}>
