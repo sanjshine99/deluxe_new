@@ -372,6 +372,17 @@
   margin-bottom: 0;
 }
 
+.blogpost-entry-body p a {
+  color: var(--bp-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s ease;
+}
+
+.blogpost-entry-body p a:hover {
+  opacity: 0.75;
+}
+
 /* Inline callout note (inside titled sections) */
 .blogpost-service-note {
   font-style: normal;
