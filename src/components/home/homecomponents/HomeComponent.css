@@ -36,6 +36,17 @@
   font-size: larger;
 }
 
+.desccomponent p a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s ease;
+}
+
+.desccomponent p a:hover {
+  opacity: 0.75;
+}
+
 /* Video Landing styling */
 .landing_page_video {
   width: 100%;
