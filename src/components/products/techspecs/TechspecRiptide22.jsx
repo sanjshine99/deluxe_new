@@ -1,4 +1,4 @@
-import React, { useCallback, useMemo } from "react";
+﻿import React, { useCallback, useMemo } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "../../home/Home.css";
@@ -51,7 +51,7 @@ const TechspecRiptide22 = () => {
 
   return (
     <div className="component" ref={refTechSpec}>
-      <h1>TECHNICAL SPECS</h1>
+      <h2 className="homepage-section-h">TECHNICAL SPECS</h2>
       <div className="ourval">{images}</div>
     </div>
   );

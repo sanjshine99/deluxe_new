@@ -122,7 +122,7 @@
   padding: 24px 28px;
 }
 
-.media-video-info h3 {
+.media-video-info h2 {
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--color-white);
@@ -132,6 +132,7 @@
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  text-transform: none;
   overflow: hidden;
 }
 

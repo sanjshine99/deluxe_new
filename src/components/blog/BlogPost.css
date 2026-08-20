@@ -353,6 +353,7 @@
   font-weight: 400;
   text-align: left;
   transition: color 0.2s;
+  text-transform: none;
 }
 
 .blogpost-entry:hover .blogpost-entry-title {

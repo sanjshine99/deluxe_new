@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import "./Strombreaker18insidecarousel.css";
 
 
@@ -87,7 +87,7 @@ const Slider23 = () => {
               className="slider-overlay"
               onClick={() => handleOverlayTouch(sectionIndex)}
             >
-              <h1 className="slider-heading">{section.name}</h1>
+              <h2 className="slider-heading">{section.name}</h2>
             </div>
           )}
 

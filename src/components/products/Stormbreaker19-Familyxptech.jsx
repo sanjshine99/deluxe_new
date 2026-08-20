@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import "./Products.css";
 import "../home/Home.css";
 import "../home/homecomponents/HomeComponent.css";
@@ -130,7 +130,7 @@ const Stormbreaker19FamilyXPTech = () => {
       </div>
       <div className="component" id="xptechbanner">
         <Link to="/xptec">
-          <h1 style={{ color: "white", fontSize: "8vw" }}>
+          <p style={{ color: "white", fontSize: "8vw" }}>
             <span style={{ textTransform: "uppercase" }}>F</span>
             <span style={{ textTransform: "lowercase" }}>ind out </span>
             <span style={{ textTransform: "uppercase" }}>m</span>
@@ -138,7 +138,7 @@ const Stormbreaker19FamilyXPTech = () => {
             <br /> <span style={{ textTransform: "uppercase" }}>a</span>
             <span style={{ textTransform: "lowercase" }}>bout</span>{" "}
             <span style={{ textTransform: "uppercase" }}>XP-TECH</span>
-          </h1>
+          </p>
         </Link>
       </div>
       {/* <div className='slideshowcomopnent'>
@@ -201,7 +201,7 @@ const Stormbreaker19FamilyXPTech = () => {
         <Techspec19xptech />
       </div>
       <div className="component" id="specs">
-        <h1>Features & Specifications</h1>
+        <h2 className="homepage-section-h">Features & Specifications</h2>
         <Storm19specs />
       </div>
       <div>

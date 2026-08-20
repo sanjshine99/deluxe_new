@@ -61,7 +61,7 @@
   margin-bottom: 0;
 }
 
-.service-type h3 {
+.service-type h2 {
   color: var(--color-white);
   margin-bottom: 20px;
   font-size: 1.5rem;
@@ -69,9 +69,10 @@
   letter-spacing: 1px;
   position: relative;
   padding-bottom: 15px;
+  text-transform: none;
 }
 
-.service-type h3::after {
+.service-type h2::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -176,7 +177,7 @@
     padding: 25px 20px;
   }
 
-  .service-type h3 {
+  .service-type h2 {
     font-size: 1.3rem;
   }
 
@@ -205,7 +206,7 @@
     padding: 20px 15px !important;
   }
 
-  .service-type h3 {
+  .service-type h2 {
     font-size: 1.2rem !important;
   }
 
@@ -240,7 +241,7 @@
     padding: 15px 10px !important;
   }
 
-  .service-type h3 {
+  .service-type h2 {
     font-size: 1rem;
   }
 
