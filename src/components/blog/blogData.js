@@ -126,7 +126,7 @@ export const blogPosts = [
           "That doesn't mean free camping is disappearing.",
           "Many regional communities still actively welcome self-contained caravan travellers because they bring valuable business to local fuel stations, cafés, supermarkets and attractions. In fact, many country towns continue to maintain designated free camping areas specifically to encourage visitors to stay longer and support the local economy.",
           "The important thing to remember is that free camping rules aren't controlled by one national authority. National parks, state forests, local councils and private landowners all manage their own land differently. That's why experienced travellers rarely rely on old blog posts or printed guides alone.",
-          "Before leaving home — and even during your trip — it's worth checking apps such as WikiCamps and CamperMate, which are regularly updated with campsite information, traveller reviews, facility details and any recent rule changes. A campsite that was open six months ago may now require a booking, while another may have recently reopened after maintenance or seasonal closures.",
+          <>Before leaving home — and even during your trip — it's worth checking apps such as <a href="https://www.wikicamps.com.au/" target="_blank" rel="noopener noreferrer">WikiCamps</a> and <a href="https://campermate.com/en" target="_blank" rel="noopener noreferrer">CamperMate</a>, which are regularly updated with campsite information, traveller reviews, facility details and any recent rule changes. A campsite that was open six months ago may now require a booking, while another may have recently reopened after maintenance or seasonal closures.</>,
         ],
       },
       {
@@ -135,7 +135,7 @@ export const blogPosts = [
           "New South Wales offers one of Australia's largest selections of free camping opportunities, but it's also one of the states where local regulations vary the most.",
           "Travellers heading inland will generally find more options than those staying along the busy coastline. Many country towns provide designated camping areas for self-contained caravans, while several state forests offer excellent bush camping experiences. Coastal councils, particularly around high-demand holiday destinations, are more likely to restrict overnight parking outside approved camping areas.",
           "If you're wondering where can I camp for free in a caravan, regional New South Wales is often your best starting point. Areas throughout the Riverina, New England and western parts of the state continue to provide welcoming options for responsible travellers.",
-          "Before stopping for the night, always check local signage and confirm the latest information through WikiCamps or CamperMate.",
+          <>Before stopping for the night, always check local signage and confirm the latest information through <a href="https://www.wikicamps.com.au/" target="_blank" rel="noopener noreferrer">WikiCamps</a> or <a href="https://campermate.com/en" target="_blank" rel="noopener noreferrer">CamperMate</a>.</>,
         ],
       },
       {
@@ -232,7 +232,7 @@ export const blogPosts = [
       {
         title: "Where Can I Camp for Free in a Caravan?",
         paragraphs: [
-          "Many regional towns, council-managed reserves, state forests and designated roadside rest areas provide opportunities for free camping. The availability of these sites varies across Australia, and conditions or regulations can change throughout the year. Apps such as WikiCamps and CamperMate are among the most reliable resources for finding current information, reading recent traveller reviews and checking available facilities before you arrive.",
+          <>Many regional towns, council-managed reserves, state forests and designated roadside rest areas provide opportunities for free camping. The availability of these sites varies across Australia, and conditions or regulations can change throughout the year. Apps such as <a href="https://www.wikicamps.com.au/" target="_blank" rel="noopener noreferrer">WikiCamps</a> and <a href="https://campermate.com/en" target="_blank" rel="noopener noreferrer">CamperMate</a> are among the most reliable resources for finding current information, reading recent traveller reviews and checking available facilities before you arrive.</>,
         ],
       },
       {
@@ -338,7 +338,7 @@ export const blogPosts = [
         title: "Why 2026 is worth taking seriously as a time to buy",
         paragraphs: [
           "The cost of living has changed the maths around family holidays. A return overseas trip for four people, including flights, accommodation, transfers and travel insurance, can easily run past $15,000. A caravan, amortised across five or ten years of holidays, starts to look different when you run those numbers honestly.",
-          "Domestic travel infrastructure has also improved significantly. Apps like Wikicamps have made it easier to find free camping that's actually good. More national parks have been upgraded. Remote roads that required a serious 4WD setup a decade ago are accessible to well-built caravans now. And for families where one or both parents work remotely, the school holiday window isn't the hard constraint it used to be.",
+          <>Domestic travel infrastructure has also improved significantly. Apps like <a href="https://www.wikicamps.com.au/" target="_blank" rel="noopener noreferrer">WikiCamps</a> have made it easier to find free camping that's actually good. More national parks have been upgraded. Remote roads that required a serious 4WD setup a decade ago are accessible to well-built caravans now. And for families where one or both parents work remotely, the school holiday window isn't the hard constraint it used to be.</>,
           "None of this means a caravan is the right call for every family. But if you're already considering it, 2026 is a reasonable year to act rather than wait.",
         ],
       },
@@ -483,7 +483,7 @@ export const blogPosts = [
           "Some legs worth knowing: The Nullarbor crossing is less daunting than its reputation. Allow three to four days and don't treat it as something to endure. The Bunda Cliffs are spectacular, the roadhouses are fine, and the wide emptiness is part of what makes it memorable.",
           "The Kimberley deserves more time than most first-timers give it. Budget a minimum of three weeks. The Gibb River Road is the highlight and requires a capable van and some planning. Carry extra water and let someone know your itinerary.",
           "Tasmania is often left off the Big Lap and shouldn't be. The ferry from Melbourne makes it achievable as an add-on, and the island rewards slow travel in a way that the mainland sometimes doesn't.",
-          "Apps worth having before you leave: Wikicamps (the most comprehensive free camping database in Australia), Hema Explorer (offline maps that work where mobile data doesn't), and Campermate for caravan park bookings.",
+          <>Apps worth having before you leave: <a href="https://www.wikicamps.com.au/" target="_blank" rel="noopener noreferrer">WikiCamps</a> (the most comprehensive free camping database in Australia), Hema Explorer (offline maps that work where mobile data doesn't), and <a href="https://campermate.com/en" target="_blank" rel="noopener noreferrer">CamperMate</a> for caravan park bookings.</>,
         ],
       },
       {
@@ -589,7 +589,7 @@ export const blogPosts = [
         paragraphs: [
           "Most people go into caravanning retirement for the freedom. What many of them end up talking about most is the people.",
           "Caravan parks have a social dynamic that's genuinely unlike anything else. You share a small space with strangers who, it turns out, are doing something similar to you and are usually delighted to talk about it. Campfire conversations happen. Contact details get exchanged. People meet on the road and run into each other again three months later on the other side of the country.",
-          "Online communities — including Facebook groups, Wikicamps forums and state-based grey nomad groups — extend this further. Route advice, campsite recommendations, mechanical help when something goes wrong. The network is real and it's generous.",
+          <>Online communities — including Facebook groups, <a href="https://www.wikicamps.com.au/" target="_blank" rel="noopener noreferrer">WikiCamps</a> forums and state-based grey nomad groups — extend this further. Route advice, campsite recommendations, mechanical help when something goes wrong. The network is real and it's generous.</>,
         ],
       },
       {

@@ -183,7 +183,7 @@ const Eclipse21CouplesOffRoad = () => {
         <TechspecEclipse21 />
       </div>
       <div className="component" id="specs">
-        <h1>Features & Specifications</h1>
+        <h2 className="homepage-section-h">Features & Specifications</h2>
         <SpecsEclipse21 />
       </div>
       <HandoverSection />

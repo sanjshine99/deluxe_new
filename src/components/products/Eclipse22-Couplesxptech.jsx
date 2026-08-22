@@ -123,7 +123,7 @@ const Eclipse22CouplesXPTech = () => {
       </div>
       <div className="component" id="xptechbanner">
         <Link to="/xptec">
-          <h1 style={{ color: "white", fontSize: "8vw" }}>
+          <p style={{ color: "white", fontSize: "8vw" }}>
             <span style={{ textTransform: "uppercase" }}>F</span>
             <span style={{ textTransform: "lowercase" }}>ind out </span>
             <span style={{ textTransform: "uppercase" }}>m</span>
@@ -131,7 +131,7 @@ const Eclipse22CouplesXPTech = () => {
             <br /> <span style={{ textTransform: "uppercase" }}>a</span>
             <span style={{ textTransform: "lowercase" }}>bout</span>{" "}
             <span style={{ textTransform: "uppercase" }}>XP-TECH</span>
-          </h1>
+          </p>
         </Link>
       </div>
       {/* <div className='slideshowcomopnent'>
@@ -194,7 +194,7 @@ const Eclipse22CouplesXPTech = () => {
         <TechspecEclipse22xptech />
       </div>
       <div className="component" id="specs">
-        <h1>Features & Specifications</h1>
+        <h2 className="homepage-section-h">Features & Specifications</h2>
         <SpecsEclipse22 />
       </div>
 

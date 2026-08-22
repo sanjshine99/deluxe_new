@@ -71,7 +71,7 @@ const Video = React.memo(() => {
                   allowFullScreen
                 ></iframe>
                 <div className="video-card-content">
-                  <h3>{video.title}</h3>
+                  <h2>{video.title}</h2>
                   <p>{video.description}</p>
                 </div>
               </div>

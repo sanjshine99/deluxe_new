@@ -168,7 +168,7 @@ const DefaultTemplate = ({ post }) => {
                       <span className="blogpost-label-line" />
                       {section.num}
                     </p>
-                    <h3 className="blogpost-entry-title">{section.title}</h3>
+                    <h2 className="blogpost-entry-title">{section.title}</h2>
                   </div>
                 )}
                 <div className="blogpost-entry-body">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 import "./HomeComponent.css";
 
@@ -21,9 +22,12 @@ const HomeDescription = () => {
       ref={ref}
     >
       <div className="desccomponent">
-      <h1 style={{ opacity: 1, transform: "translateY(0)" }}>
-        YOUR DREAM CARAVAN. BUILT YOUR WAY.
-      </h1>
+        <h2 className="homepage-section-h" style={{ opacity: 1, transform: "translateY(0)" }}>
+          YOUR DREAM CARAVAN. BUILT YOUR WAY.
+        </h2>
+        <h3 className="homepage-subh" style={{ opacity: 1, transform: "translateY(0)" }}>
+          Australian-Made Luxury Caravans, Built Around You
+        </h3>
         <p
           style={{
             opacity: 1,
@@ -31,11 +35,8 @@ const HomeDescription = () => {
             transitionDelay: stagger * 1 + "s",
           }}
         >
-          At Deluxe Caravans, we build Australian made caravans that combine luxury, durability, and
-practicality. Our range of off road caravans Australia is designed to inspire, with every caravan
-custom built to your order and to suit your lifestyle. Start with one of our proven layouts, then
-personalize the floorplan, finishes, features, and off-grid capability to create the luxury caravan
-you&#39;ve always dreamed of.</p>
+          At Deluxe Caravans, we design and build Australian-made luxury caravans that combine quality craftsmanship, genuine off-road capability, and everyday practicality. Every caravan is custom built to order, so you can choose the layout, finishes and features that best suit the way you travel.
+        </p>
         <p
           style={{
             opacity: 1,
@@ -43,9 +44,8 @@ you&#39;ve always dreamed of.</p>
             transitionDelay: stagger * 2 + "s",
           }}
         >
-          From premium couples&#39; caravans to spacious family caravans Australia can rely on, every
-Deluxe Caravan is handcrafted to your exact requirements—because no two travellers are the
-same.</p>
+          Our range of Australian-made off-road caravans are designed to inspire, with every model built to handle Australia’s diverse landscapes while delivering the comfort, quality and craftsmanship you’d expect from a Deluxe caravan. Start with one of our proven layouts, then customize the floorplan, cabinetry, appliances, finishes and <Link to="/off-grid-caravans-australia">off-grid capability</Link>, including our advanced <Link to="/xptech">XP-TECH full composite construction options</Link>, to create a caravan tailored to your lifestyle.
+        </p>
         <p
           style={{
             opacity: 1,
@@ -53,18 +53,26 @@ same.</p>
             transitionDelay: stagger * 3 + "s",
           }}
         >
-        You’ll also have the opportunity to follow your caravan as it&#39;s being built through our Build
-Journey, giving you complete transparency and confidence from the day construction begins
-through to handover.</p>
-<p
+          From premium <Link to="/couplesxptech">couples’ caravans</Link> to spacious <Link to="/family-caravans-australia">family caravans</Link>, every Deluxe Caravan is handcrafted in our Campbellfield manufacturing facility using quality materials and attention to detail. Whether you’re heading away for a weekend or travelling Australia full time, you’ll enjoy a caravan built around the way you travel, with no two builds ever being the same.
+        </p>
+        <p
           style={{
             opacity: 1,
             transform: "translateY(0)",
-            transitionDelay: stagger * 3 + "s",
+            transitionDelay: stagger * 4 + "s",
           }}
         >
-        Experience the difference of truly custom-built deluxe caravans, designed around your
-adventures and built to last.</p>
+          You’ll also have the opportunity to follow your caravan throughout every stage of construction with our <Link to="/buildjourney">Build Journey</Link>, giving you complete transparency and confidence from the day your build begins through to handover.
+        </p>
+        <p
+          style={{
+            opacity: 1,
+            transform: "translateY(0)",
+            transitionDelay: stagger * 5 + "s",
+          }}
+        >
+          Experience the difference of Australian-made luxury caravans designed around your adventures, custom built for the way you travel and built to last for years of adventure.
+        </p>
       </div>
     </div>
   );

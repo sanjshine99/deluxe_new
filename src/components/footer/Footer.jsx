@@ -52,10 +52,10 @@ const Footer = React.memo(() => {
             About us
           </Link>
           <Link to="/blog" className="footer-link">
-            BLOG
+            Blog
           </Link>
           <Link to="/media" className="footer-link">
-            MEDIA
+            Media
           </Link>
           <Link to="/tour" className="footer-link">
             Virtual tour

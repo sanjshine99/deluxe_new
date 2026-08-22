@@ -109,7 +109,7 @@ const Media = () => {
                   allowFullScreen
                 />
                 <div className="media-video-info">
-                  <h3>{video.title}</h3>
+                  <h2>{video.title}</h2>
                   <p>{video.description}</p>
                 </div>
               </div>

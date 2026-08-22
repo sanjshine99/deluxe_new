@@ -188,7 +188,7 @@ const Stormbreaker19FamilyOffRoad = () => {
         <Techspec19 />
       </div>
       <div className="component" id="specs">
-        <h1>Features & Specifications</h1>
+        <h2 className="homepage-section-h">Features & Specifications</h2>
         <Storm19specs />
       </div>
       <HandoverSection />

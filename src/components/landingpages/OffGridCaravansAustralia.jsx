@@ -56,7 +56,7 @@ const models = [
   {
     name: "STORMBREAKER 18'6\"",
     price: 'From $89,900',
-    image: 'https://deluxcaravan.b-cdn.net/assets/header/186.webp',
+    image: 'https://deluxcaravan.b-cdn.net/assets/Carousel/XP-TECH-SB186-header%5B2%5Dnewer.webp',
     xptechLink: '/stormbreaker18familyxptech',
     expeditionLink: '/stormbreaker18familyoffroad',
     specs: ['XP-TECH power available', '400Ah lithium · 800W solar available', 'Couples off-grid range', 'Victron or Enerdrive power system', 'Double bunk or triple bunk fit-out'],
@@ -65,7 +65,7 @@ const models = [
   {
     name: "STORMBREAKER 23'11\"",
     price: 'From $96,900',
-    image: 'https://deluxcaravan.b-cdn.net/assets/header/2311.webp',
+    image: 'https://deluxcaravan.b-cdn.net/assets/Carousel/XP-TECH-SB186-Newer.webp',
     xptechLink: '/stormbreaker23familyxptech',
     expeditionLink: '/stormbreaker23familyoffroad',
     specs: ['XP-TECH power available', '400Ah lithium · 800W solar available', 'Couples off-grid range', 'Victron or Enerdrive power system', 'Up to 6 bunks'],
@@ -74,7 +74,7 @@ const models = [
   {
     name: "ECLIPSE 18'6\"",
     price: 'From $89,000',
-    image: 'https://deluxcaravan.b-cdn.net/assets/header/216.webp',
+    image: 'https://deluxcaravan.b-cdn.net/assets/Carousel/XP-TECH-SB186-Newer.webp',
     xptechLink: '/eclipse18couplesxptech',
     expeditionLink: '/eclipse18couplesoffroad',
     specs: ['XP-TECH power available', '400Ah lithium · 800W solar available', 'Couples off-grid range', 'Victron or Enerdrive power system', 'Full couples fit-out'],
@@ -83,7 +83,7 @@ const models = [
   {
     name: "ECLIPSE 22'",
     price: 'From $98,900',
-    image: 'https://deluxcaravan.b-cdn.net/assets/header/196.webp',
+    image: 'https://deluxcaravan.b-cdn.net/assets/Carousel/XP-TECH-SB186-Newer.webp',
     xptechLink: '/eclipse22couplesxptech',
     expeditionLink: '/eclipse22couplesoffroad',
     specs: ['XP-TECH power available', '400Ah lithium · 800W solar available', 'Couples off-grid range', 'Victron or Enerdrive power system', 'Queen or king bed layout'],

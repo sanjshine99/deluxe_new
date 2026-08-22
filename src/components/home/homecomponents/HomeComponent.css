@@ -36,6 +36,17 @@
   font-size: larger;
 }
 
+.desccomponent p a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s ease;
+}
+
+.desccomponent p a:hover {
+  opacity: 0.75;
+}
+
 /* Video Landing styling */
 .landing_page_video {
   width: 100%;
@@ -177,6 +188,36 @@
   );
 }
 
+.homepage-section-h {
+  position: relative;
+  font-size: 50px;
+  color: var(--color-white);
+  transition: all 0.3s ease;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.homepage-section-h::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--accent-color),
+    transparent
+  );
+}
+
+.homepage-subh {
+  font-size: 1.5rem;
+}
+
 .text-overlay:hover h1 {
   color: var(--color-white);
   /* Change the text color on hover */
@@ -281,6 +322,9 @@
     margin: 0 !important;
   }
   .component h1 {
+    font-size: 30px;
+  }
+  .homepage-section-h {
     font-size: 30px;
   }
   .desccomponent p {

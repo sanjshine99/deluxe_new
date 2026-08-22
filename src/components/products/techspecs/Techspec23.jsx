@@ -51,7 +51,7 @@ const Techspec23 = () => {
 
   return (
     <div className="component" ref={refTechSpec}>
-      <h1>TECHNICAL SPECS</h1>
+      <h2 className="homepage-section-h">TECHNICAL SPECS</h2>
       <div className="ourval">{images}</div>
     </div>
   );
