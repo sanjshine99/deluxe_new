@@ -353,6 +353,7 @@
   font-weight: 400;
   text-align: left;
   transition: color 0.2s;
+  text-transform: none;
 }
 
 .blogpost-entry:hover .blogpost-entry-title {
@@ -370,6 +371,17 @@
 
 .blogpost-entry-body p:last-child {
   margin-bottom: 0;
+}
+
+.blogpost-entry-body p a {
+  color: var(--bp-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s ease;
+}
+
+.blogpost-entry-body p a:hover {
+  opacity: 0.75;
 }
 
 /* Inline callout note (inside titled sections) */

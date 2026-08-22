@@ -92,16 +92,9 @@ const Eclipse18CouplesOffRoad = () => {
             {
               name: "Exterior",
               images: [
-                "https://deluxcaravan.b-cdn.net/assets/Product%20renders/Eclipse216.webp",
-                "https://deluxcaravan.b-cdn.net/assets/E21/E21%20ex%201.webp",
-                "https://deluxcaravan.b-cdn.net/assets/E21/E21%20ex%202.webp",
-                "https://deluxcaravan.b-cdn.net/assets/E21/E21%20ex%203.webp",
-                "https://deluxcaravan.b-cdn.net/assets/E21/E21%20ex%204.webp",
-                "https://deluxcaravan.b-cdn.net/assets/E21/E21%20ex%205.webp",
-                "https://deluxcaravan.b-cdn.net/assets/E21/E21%20ex%206.webp",
-                "https://deluxcaravan.b-cdn.net/assets/E21/E21%20ex%207.webp",
-                "https://deluxcaravan.b-cdn.net/assets/E21/E21%20ex%208.webp",
-                "https://deluxcaravan.b-cdn.net/assets/E21/E21%20ex%209.webp",
+                "https://deluxcaravan.b-cdn.net/assets/Eclipse18/eclipse18couplesoffroad1.webp",
+                "https://deluxcaravan.b-cdn.net/assets/Eclipse18/eclipse18couplesoffroad2.webp",
+                "https://deluxcaravan.b-cdn.net/assets/Eclipse18/eclipse18couplesoffroad3.webp",
               ],
               description: "Explore the stunning exterior design and features",
             },
@@ -182,7 +175,7 @@ const Eclipse18CouplesOffRoad = () => {
         <TechspecEclipse18 />
       </div>
       <div className="component" id="specs">
-        <h1>Features & Specifications</h1>
+        <h2 className="homepage-section-h">Features & Specifications</h2>
         <SpecsEclipse18 />
       </div>
       <HandoverSection />

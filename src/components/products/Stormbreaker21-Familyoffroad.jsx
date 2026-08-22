@@ -61,7 +61,7 @@ const Stormbreaker21FamilyOffRoad = () => {
     <div className="container">
       <Helmet>
         <title>Stormbreaker 21 Triple Bunk Off Road Caravan | Campbellfield VIC | Deluxe Caravans</title>
-        <meta name="description" content="The Stormbreaker 21 triple bunk off road caravan, built and warrantied from our Campbellfield, Victoria factory. Family-owned, 15+ years in business, 3-year structural warranty. Enquire today." />
+        <meta name="description" content="The Stormbreaker 21 triple bunk off road caravan, built and warrantied from our Campbellfield, Victoria factory. Family-owned, 17+ years in business, 3-year structural warranty. Enquire today." />
       </Helmet>
       <div className="component">
         <div className="background-image">
@@ -197,7 +197,7 @@ const Stormbreaker21FamilyOffRoad = () => {
         <Techspec21 />
       </div>
       <div className="component" id="specs">
-        <h1>Features & Specifications</h1>
+        <h2 className="homepage-section-h">Features & Specifications</h2>
         <Storm21specs />
       </div>
       <HandoverSection />

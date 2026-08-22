@@ -68,7 +68,7 @@ const Maintenance = () => {
                   <span className="blogpost-label-line" />
                   01
                 </p>
-                <h3 className="blogpost-entry-title">First Service &amp; Every 3,000 km</h3>
+                <h2 className="blogpost-entry-title">First Service &amp; Every 3,000 km</h2>
               </div>
               <div className="blogpost-entry-body">
                 <p className="blogpost-service-note">Should cover the below at a minimum:</p>
@@ -103,7 +103,7 @@ const Maintenance = () => {
                   <span className="blogpost-label-line" />
                   02
                 </p>
-                <h3 className="blogpost-entry-title">Major Service at 12 Months or 10,000 km</h3>
+                <h2 className="blogpost-entry-title">Major Service at 12 Months or 10,000 km</h2>
               </div>
               <div className="blogpost-entry-body">
                 <p className="blogpost-service-note">Should cover the following at a minimum:</p>

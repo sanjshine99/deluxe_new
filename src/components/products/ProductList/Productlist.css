@@ -53,6 +53,28 @@
   color: var(--color-white);
 }
 
+.price-label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #D9D9D9;
+  font-style: italic;
+  margin-bottom: 4px;
+  display: block;
+  text-align: center;
+}
+
+.price-disclaimer {
+  font-size: 13px;
+  color: #7fb3cc;
+  text-align: center;
+  padding: 0 20px 16px;
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-style: italic;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .product-grid {

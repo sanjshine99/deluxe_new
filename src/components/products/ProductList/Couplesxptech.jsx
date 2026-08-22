@@ -41,6 +41,8 @@ const Couplesxptech = React.memo(() => {
         <h1 className="product-grid-heading">Couples XP-TECH</h1>
         <p className="intro-text">Explore our range of luxury caravans for couples, featuring XP-TECH construction and premium off grid caravan for couples designs, built to redefine the couples caravanning Australia experience.</p>
         <h2 className="product-grid-subheading">Eclipse</h2>
+        <p className="price-label">Starting Prices</p>
+        <p className="price-disclaimer">All prices shown are starting prices. Final price depends on your selected customisations and optional upgrades.</p>
         <div className="product-grid">
           {products.map((product) => (
             <Link to={product.link} key={product.id}>

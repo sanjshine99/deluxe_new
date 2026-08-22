@@ -28,7 +28,7 @@ p {
   list-style: none;
 } */
 
-.model-title h1 {
+.model-title h2 {
   color: var(--color-white);
   font-size: 42px;
 }
@@ -102,7 +102,7 @@ p {
     width: 80vw; /* Adjust the width for smaller screens */
   }
 
-  .model-title h1 {
+  .model-title h2 {
     font-size: 30px; /* Reduce font size for smaller screens */
   }
 
